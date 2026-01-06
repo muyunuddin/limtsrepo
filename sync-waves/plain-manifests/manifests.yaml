@@ -2,7 +2,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  generateName: upgrade-sql-schema-1
+  generateName: upgrade-sql-schema
 spec:
   template:
     spec:
